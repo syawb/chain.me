@@ -398,6 +398,10 @@ footer {
         display: none;
     }
 
+    .track-btn {
+        width: 100%;
+    }
+
 }
 
 .wallet-title {
