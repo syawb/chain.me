@@ -113,6 +113,8 @@ button:hover {
 
 #result {
     margin-top: 30px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 .result-box {
