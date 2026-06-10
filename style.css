@@ -375,19 +375,23 @@ footer {
 @media (max-width: 768px) {
 
     .navbar {
-        padding: 15px 20px;
+        height: auto;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 15px;
     }
 
     .nav-links {
         gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    h1 {
-        font-size: 3rem;
-    }
-
-    .subtitle {
-        font-size: 1rem;
+    .nav-links a {
+        font-size: 0.9rem;
     }
 
     .connect-btn {
