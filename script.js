@@ -30,7 +30,7 @@ document
         };
 
         result.innerHTML = `
-            <h2>Wallet: ${address}</h2>
+            <h2>Wallet: ${shortAddress}</h2>
 
             <div class="card">
                 <h3>Ethereum</h3>
