@@ -291,7 +291,7 @@ button:hover {
 
     filter:
         hue-rotate(120deg)
-        brightness(15%)
+        brightness(30%)
         saturate(200%);
 
     opacity: 1;
