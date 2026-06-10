@@ -9,6 +9,11 @@ document
         const address =
             document.getElementById("wallet").value.trim();
 
+        const shortAddress =
+            address.slice(0, 6) +
+            "..." +
+            address.slice(-4);
+
         const result =
             document.getElementById("result");
 
