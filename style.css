@@ -393,3 +393,18 @@ footer {
     }
 
 }
+
+.wallet-title {
+    color: #00ff99;
+    margin-bottom: 10px;
+}
+
+.wallet-address {
+    color: #fff;
+
+    font-size: 1.1rem;
+
+    word-break: break-all;
+
+    margin-bottom: 30px;
+}
