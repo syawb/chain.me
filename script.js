@@ -59,3 +59,17 @@ document
             </div>
         `;
 });
+
+async function getTokens(address) {
+
+    const response = await fetch(
+        `https://deep-index.moralis.io/api/v2.2/wallets/${address}/tokens`,
+        {
+            headers: {
+                "X-API-Key": API_KEY
+            }
+        }
+    );
+
+    return await response.json();
+}
